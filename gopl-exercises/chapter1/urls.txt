@@ -1,0 +1,8 @@
+http://1.15.149.213:8080/ping
+http://121.5.51.10:2020/
+http://121.5.51.10:2020/get_data
+http://121.5.51.10:2020/get_data_array
+https://www.baidu.com/
+#http://121.5.51.10:2020/notFound
+#https://www.google.com/ Error i/o timeout
+https://www.bilibili.com/
