@@ -1,0 +1,7 @@
+#程序结果与wc一致，说明正确
+(base) ➜  chapter7 git:(main) ✗ wc bytecounter.go
+ 23  43 347 bytecounter.go
+
+(base) ➜  chapter7 git:(main) ✗ go run exercise-7-1.go --name bytecounter.go
+args fileName is [bytecounter.go]
+LineC = 23, WordC = 43
