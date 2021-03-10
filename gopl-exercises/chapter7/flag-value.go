@@ -10,6 +10,8 @@ type distribution struct {
 	name string
 }
 
+//Set对传入的参数进行解析
+//解析后的结果通过指针写入dis
 func (dis *distribution) Set(s string) error {
 
 	switch strings.ToLower(s) {
@@ -32,8 +34,8 @@ var flagDistribution distribution
 func init() {
 	flagDistribution = distribution{"None"}
 	flag.CommandLine.Var(&flagDistribution, //设置默认值
-		"dis",
-		"Input a linux distribution; Currently support: fedora, debian based like Ubuntu")
+		"dis", //参数名
+		"Input a linux distribution; Currently support: fedora, debian based like Ubuntu") //参数提示 usage
 
 }
 

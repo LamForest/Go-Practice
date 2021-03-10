@@ -1,0 +1,27 @@
+[
+	{
+		"Title": "Casablanca",
+		"released_year": 1942,
+		"Actor": [
+			"Humphrey Bogart",
+			"Ingrid Bergman"
+		]
+	},
+	{
+		"Title": "Cool Hand Luke",
+		"released_year": 1967,
+		"color": true,
+		"Actor": [
+			"Paul Newman"
+		]
+	},
+	{
+		"Title": "Bullitt",
+		"released_year": 1968,
+		"color": true,
+		"Actor": [
+			"Steve McQueen",
+			"Jacqueline Bisset"
+		]
+	}
+]

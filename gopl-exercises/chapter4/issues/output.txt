@@ -1,0 +1,31 @@
+#2651     fanlin  open, calculateAbsolutePath of routergroup,if the relativePat
+#2650   lewislbr  open, Could Gin provide graceful shutdown by default?
+#2649  a12929996  open, Access-Control-Allow-Origin cannot be modified
+#2648   a6965921  open, Can gin request 2W per second
+#2646    gozelus  open, Should use gin.Context as context.Context?
+#2645    birdycn  open, static How to show only files，not dir.
+#2644   cyanBone  open, write: broken pipe
+#2643     zzzeee  open, HandleContext passes parameters
+#2642        hah  open, adding QueryMapArr
+#2639  Akshat310  open, working directory is not part of a module
+#2638  thinkerou  open, support Go v1.16 version
+#2637   jbampton  open, feat(CI): add a GitHub Action to lint the YAML files
+#2636  xuyixin19  open, Update README.md
+#2635  kirill-a-  open, RoutesInfo: HandlersChain support for routes behavior b
+#2634   zettelmj  open, Variation of the Unix timestamp issue
+#2633      nozhT  open, Unexpected c.Param() results when UseRawPath and Unesca
+#2632  manucorpo  open, feat(engine): add trustedproxies and remoteIP
+#2631  edebernis  open, BindQuery to custom type
+#2630  zhuxiangl  open, Upload file I want to get the content, hash the file, i
+#2629  DarthPest  open, Per route middleware cannot abort
+#2628  almost-po  open, Is it possible to bind query inside Middleware by passi
+#2627  Julio-Gue  open, Avoid overwriting the written status code
+#2626  stevesim1  open, Security vulnerability identified with all current rele
+#2625  latavin24  open, Mod: move render unittests to render_test package
+#2623  BlackGoph  open, Why is fiber faster that gin or beego ?
+#2617  Lookingfo  open, chore: remove duplicate test 'assert.Equal'
+#2615     xieccc  open, CustomRecovery not declared by package gin
+#2613  zoujialin  open, The multipart form data resolve issue
+#2612  captainvi  open, How to use different middleware for different routes
+#2610   hooman96  open, graceful shutdown run function
+30 issues in Total.
