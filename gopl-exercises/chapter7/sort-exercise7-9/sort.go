@@ -92,6 +92,7 @@ func sortResultHandler(responseWriter http.ResponseWriter, request *http.Request
 func main() {
 
 	// http.Handle("/", http.FileServer(http.Dir("/home/ubuntu/web/go/code/gopl/Go-Practice/gopl-exercises/chapter7/sort/sort.html")))
+	//向DefaultServeMux注册handler
 	http.HandleFunc("/sort", sortResultHandler)
 	fmt.Println("ListenAndServe")
 	log.Fatal(http.ListenAndServe(ip, nil))
