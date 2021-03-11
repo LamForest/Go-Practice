@@ -1,0 +1,21 @@
+Default get [{xml version="1.0" encoding="UTF-8"}, xml.ProcInst]
+Directive  = DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+html body div h2: W3C Recommendation 16 August 2006, edited in place 29 September 2006
+html body div h2: Abstract
+html body div h2: Status of this Document
+html body div h2: Table of Contents
+html body div div h2: 1 Introduction
+html body div div h2: 2 Documents
+html body div div h2: 3 Logical Structures
+html body div div h2: 4 Physical Structures
+html body div div h2: 5 Conformance
+html body div div h2: 6 Notation
+html body div div h2: A References
+html body div div h2: B Definitions for Character Normalization
+html body div div h2: C Expansion of Entity and Character References (Non-Normative)
+html body div div h2: D Deterministic Content Models (Non-Normative)
+html body div div h2: E Autodetection of Character Encodings (Non-Normative)
+html body div div h2: F W3C XML Working Group (Non-Normative)
+html body div div h2: G W3C XML Core Working Group (Non-Normative)
+html body div div h2: H Production Notes (Non-Normative)
+html body div div h2: I Suggestions for XML Names (Non-Normative)
