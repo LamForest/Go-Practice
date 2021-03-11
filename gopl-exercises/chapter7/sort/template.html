@@ -1,0 +1,17 @@
+<h1>issues</h1>
+<table>
+<tr style='text-align: left'>
+  <th>#</th>
+  <th>State</th>
+  <th><a href="?sortkey=user">User</a></th>
+  <th><a href="?sortkey=title">Title</a></th>
+</tr>
+{{range .}}
+<tr>
+  <td><a href='{{.HTMLURL}}'>{{.Number}}</a></td>
+  <td>{{.State}}</td>
+  <td><a href='{{.User.HTMLURL}}'>{{.User.Login}}</a></td>
+  <td><a href='{{.HTMLURL}}'>{{.Title}}</a></td>
+</tr>
+{{end}}
+</table>

@@ -8,8 +8,9 @@ import (
 
 //const IssuesURL = "https://api.github.com/search/issues"
 
-// const IssuesURL = "https://api.github.com/repos/octocat/hello-world/issues"
-const IssuesURL = "https://api.github.com/repos/gin-gonic/gin/issues"
+const IssuesURL = "https://api.github.com/repos/octocat/hello-world/issues"
+
+// const IssuesURL = "https://api.github.com/repos/gin-gonic/gin/issues"
 
 // type IssuesSearchResult struct {
 // 	// TotalCount int `json:"total_count"`
