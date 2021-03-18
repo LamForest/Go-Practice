@@ -11,14 +11,14 @@ import (
 
 func main() {
 	dur, _ := time.ParseDuration("5s")
-	conn, err := net.DialTimeout("tcp", "localhost:8000", dur)
+	conn, err := net.DialTimeout("tcp", "localhost:9001", dur)
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer conn.Close()
-	// go mustCopy(os.Stdout, conn)
-	// mustCopy(conn, os.Stdin)
-	mustCopy(os.Stdout, conn)
+	go mustCopy(os.Stdout, conn)
+	mustCopy(conn, os.Stdin)
+	// mustCopy(os.Stdout, conn)
 }
 
 func mustCopy(dst io.Writer, src io.Reader) {

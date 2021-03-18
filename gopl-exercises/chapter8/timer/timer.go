@@ -1,3 +1,4 @@
+//利用关闭通道达到广播的效果
 package main
 
 import (
