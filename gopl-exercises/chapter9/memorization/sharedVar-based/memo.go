@@ -24,7 +24,7 @@ type Func func(string) (interface{}, error)
 
 type Memo struct {
 	mutex sync.Mutex
-	cache map[string]result
+	cache map[string]*result
 	f     Func
 }
 
@@ -36,7 +36,6 @@ func (this *Memo) Get(key string) (interface{}, error) {
 
 	this.mutex.Lock()
 	item := this.cache[key]
-	this.cache[key].err = nil
 	// 这里不能解锁，因为某个goroutine发现该cache[key]后
 	// 应该立刻占住位置，否则会有多个goroutine试图调用慢函数 f(重复抑制失败)
 	// this.mutex.Unlock()
